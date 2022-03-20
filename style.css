@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-image {
+    height: 100vh;
+    background-image: url(images/bg-image.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: -1px 42px 5px -1px rgba(0,0,0,0.72);
+    -webkit-box-shadow: -1px 42px 5px -1px rgba(0,0,0,0.72);
+    -moz-box-shadow: -1px 42px 5px -1px rgba(0,0,0,0.72);
+    object-fit: cover;
+
+}
+
+.myModal {
+    display: none; 
+    position: fixed;
+    z-index: 10;
+    top: 30%;
+    left: 32%;
+    width: 40%;
+    height: auto;
+    background-color: white;
+    margin:auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+}
+
+
+.myModal.active {
+    display: block;
+}
+
+.filter {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: relative;
+    left: 20%;
+}
+
+.nav-link:hover {
+    color:#ccc;
+
+}
+
+.cartMobile {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 10;
+
+}
+
+.cartMobile button {
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 1.5s;
+
+}
+
+.cartMobile button i  {
+    font-size: 20px;
+}
+
+.cartMobile button:hover i {
+    transform: rotate(1080deg);
+}
+
+
+footer {
+    background: #1c1c1c;
+}
+
+.navfooter li a {
+    color: #fff;
+    font-size: 30px;
+}
+.navfooter li a:hover {
+    color: #ccc;
+}
+
+
+

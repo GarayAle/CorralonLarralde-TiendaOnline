@@ -1,0 +1,45 @@
+
+[
+    {
+        "precio": 5000,
+        "id": 1,
+        "title": "Ladrillo Comun x Pallet",
+        "category": "Ladrillos",
+        "image": "/images/image1.jpg"
+    },
+    {
+        "precio": 9000,
+        "id": 2,
+        "title": "Cemento Loma Negra x50kg x Pallet ",
+        "category": "Bolsas",
+        "image": "/images/image2.jpg"
+    },
+    {
+        "precio": 6500,
+        "id": 3,
+        "title": "Ladrillo Hueco 12x18x33 x Pallet",
+        "category": "Ladrillos",
+        "image": "/images/image3.jpg"
+    },
+    {
+        "precio": 8300,
+        "id": 4,
+        "title": "Block de Cemento Simil Piedra",
+        "category": "Ladrillos",
+        "image": "/images/image4.jpg"
+    },
+    {
+        "precio": 4500,
+        "id": 5,
+        "title": "Cal Cacique x30kg x Pallet",
+        "category": "Bolsas",
+        "image": "/images/image5.jpg"
+    },
+    {
+        "precio": 12500,
+        "id": 6,
+        "title": "Pastina x1kg x Pallet",
+        "category": "Bolsas",
+        "image": "/images/image6.jpg"
+    }
+]
